@@ -1,0 +1,57 @@
+.card {
+    background-color: #181818;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.555) 0 4px 21px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    min-height: 280px;
+
+    margin-right: 56px;
+    margin-top: 56px;
+
+    transition: .25s;
+
+    padding: 20px;
+
+    cursor: pointer;
+}
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.87) 0 4px 21px;
+    transform: scale(1.03);
+}
+
+.card-weather {
+    font-weight: 300;
+    font-size: 16px;
+}
+.card-degree {
+    font-size: 32px;
+    margin-top: 28px;
+}
+.card-city {
+    margin-top: 32px;
+}
+
+.btn-add {
+    cursor: pointer;
+    background-color: #1c1c1c;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 42px;
+    width: 65px;
+    height: 65px;
+    box-shadow: rgba(0, 0, 0, 0.87) 0 4px 10px;
+
+    margin-top: 50px;
+
+    transition: .2s;
+}
+.btn-add:hover {
+    box-shadow: rgba(0, 0, 0, 0.87) 0 4px 21px;
+}
